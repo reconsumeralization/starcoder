@@ -1,7 +1,8 @@
 repo_name: reconsumeralization/starcoder
 report_id: 444160f45f5500a9e5761c943e2f0688
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T16:20:26+00:00'
+timestamp: '2024-01-04T15:04:03+00:00'
 requested_by: lvwerra
 provider: github
 branch: main
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/reconsumeralization/starcoder
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -25,6 +27,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/reconsumeralization/starcoder
   detection_source: Repo Metadata
 - name: PyPI
   description: A repository of software for the Python programming language
@@ -34,6 +37,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/reconsumeralization/starcoder/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: ArmelRandy
   last_updated_on: 2023-04-26 14:44:42.000000000 Z
@@ -47,12 +51,13 @@ tools:
   category: Application Utilities
   sub_category: NLP / Sentiment Analysis
   image_url: https://img.stackshare.io/service/12240/no-img.png
-  detection_source: requirements.txt
+  detection_source_url: https://github.com/reconsumeralization/starcoder/blob/main/chat/requirements.txt
+  detection_source: chat/requirements.txt
   last_updated_by: lewtun
   last_updated_on: 2023-05-09 16:02:12.000000000 Z
 - name: tqdm
   description: Fast, Extensible Progress Meter
-  package_url: https://pypi.org/tqdm
+  package_url: https://pypi.org/project/tqdm
   version: 4.65.0
   license: MPL-2.0,MIT
   open_source: true
@@ -60,7 +65,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19846/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/reconsumeralization/starcoder/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: ArmelRandy
   last_updated_on: 2023-04-26 14:44:42.000000000 Z
